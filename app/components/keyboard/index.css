@@ -1,0 +1,35 @@
+.ng-calculator__keyboard {
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ng-calculator__numpad,
+.ng-calculator__oppad,
+.ng-calculator__basicpad {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ng-calculator__numpad {
+	width: 150px;
+	height: 150px;
+}
+
+.ng-calculator__oppad {
+	width: 250px;
+}
+
+.ng-calculator__basicpad {
+	width: 50px;
+}
+
+.ng-calculator__numpad key,
+.ng-calculator__oppad key,
+.ng-calculator__basicpad key {
+	flex: 1;
+}

@@ -1,0 +1,7 @@
+.ng-calculator__wrapper {
+	width: 460px;
+    height: 320px;
+    margin: 30px auto;
+    background-color: #cccccc61;
+    padding: 5px;
+}

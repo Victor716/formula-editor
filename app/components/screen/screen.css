@@ -1,0 +1,17 @@
+.ng-calculator__screen input {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 10px;
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none;
+    text-align: right;
+    font-size: 20px;
+}
+
+.ng-calculator__screen input:focus {
+	outline: none !important;
+	border-color: transparent !important;
+	box-shadow: none !important; 
+}

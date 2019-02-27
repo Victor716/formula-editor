@@ -1,0 +1,11 @@
+<section class="ng-calculator__keyboard">
+	<div class="ng-calculator__oppad">
+		<key ng-repeat="c in keyboardCtrl.chars.opChars track by $index" content="{{c}}" on-click="keyboardCtrl.displayValue(value)"></key>		
+	</div>
+	<div class="ng-calculator__numpad">
+		<key ng-repeat="k in keyboardCtrl.chars.nums track by $index" content="{{k}}" on-click="keyboardCtrl.displayValue(value)"></key>
+	</div>
+	<div class="ng-calculator__basicpad">
+		<key ng-repeat="b in keyboardCtrl.chars.basicChars track by $index" content="{{b}}" on-click="keyboardCtrl.displayValue(value)"></key>
+	</div>
+</section>
